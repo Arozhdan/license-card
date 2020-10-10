@@ -1,0 +1,112 @@
+.card{
+  position: relative;
+  background-color: #f8f8f8;
+  max-width: 600px;
+  padding: 10px;
+  border: 10px solid #ebebeb;
+  margin: 100px auto;
+}
+
+.license-type{
+  padding: 15px ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.license__active{
+  border: 1px solid rgba(45, 62, 68, 0.07);
+  background-color: #ebf5f7;
+}
+.license-price{
+  color: #959595;
+}
+.license-type-data{
+  margin-left: 15px;
+}
+
+.card-quantity{
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  margin-top: 10px;
+  padding: 30px 0 30px 30%;
+}
+.card-quantity label{
+  margin-right: 10px;
+}
+
+.card-price{
+  width: 50%;
+  margin: 30px auto;
+}
+
+.card-price-heading{
+  font-size: 18px;
+  text-align: center;
+  color: #87888c;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  span{
+    color: #3b85a0;
+  }
+  sup{
+    font-size: 14px;
+  }
+}
+.btn{
+  background-color: #34a845;
+  border: transparent;
+  border-radius: 30px;
+  color: #fff;
+  outline: none;
+  padding: 15px 50px;
+  text-transform: uppercase;
+  &__card{
+    display: block;
+    margin: 0 auto;
+  }
+}
+.card-selected{
+  margin-top: 50px;
+  text-align: center;
+  color: #0293bf;
+}
+
+.card-modal{
+  padding: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(203, 203, 203, 0.76);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.card-modal-inner{
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-close{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #34a845;
+  border: transparent;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: 800;
+  padding: 5px 8px 5px 9px;
+}
+.card-modal-cost{
+  margin: 20px 0;
+}
+@import "components/radio";
+
+
